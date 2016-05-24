@@ -1,0 +1,24 @@
+/* Put your custom CSS here */
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#32383d;
+    font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+    font-size: 105%;
+}
+
+aside a { float: right; }
+
+.imgCropped {
+	width: 100%;
+	overflow: hidden;
+	border-radius: 25px;
+	line-height: 0;
+}
+
+.imgResized {
+	width: 100%;
+	border-radius: 10px; 
+	/* transform: scaleX(-1); */ /* Flips an image! */
+}

@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">        
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+  <title></title>
+  <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
+  <link rel="stylesheet" href="themes/mycolors.min.css">
+  <link rel="stylesheet" href="fonts/stylesheet.css">
+  <link rel="stylesheet" href="codiqa.ext.css">
+</head>
+<body>
+<!-- Home -->
+<section data-role="page" data-theme="a" id="home">
+    <header data-role="header" data-position="fixed"> 
+        <h1>
+            mySDCE
+        </h1>
+        <nav data-role="navbar">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="flip" data-theme="" data-icon="home"
+                    class="ui-btn-active ui-state-persist">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#art" data-transition="flip" data-theme="" data-icon="grid">
+                        Art
+                    </a>
+                </li>
+                <li>
+                    <a href="#computer" data-transition="flip" data-theme="" data-icon="gear">
+                        Computer
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <article data-role="content">
+        <h2>
+            Welcome<span class="welcomeMessage"></span>
+        </h2>
+        <div class="imgCropped"><img src="images/organization.jpg"></div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+				
+            </div>
+            <div class="ui-block-b">
+				
+            </div>
+            <div class="ui-block-a">
+				<a data-role="button" href="#about" data-icon="info" data-iconpos="notext" data-transition="pop">
+					About
+				</a>
+            </div>
+            <div class="ui-block-b">
+				
+            </div>
+			<!--<a data-url="http://youtube.com" data-role="button" data-icon="star" class="btnURL">YouTube</a>
+			<a href="#" data-role="button" id="btnFeedback">Beep</a>
+			<a href="#" data-role="button" id="btnTakePhoto">Camera</a>
+			<img src="" style="width: 100%;" id="myImage">-->
+        </div>
+    </article>
+    <footer data-role="footer" data-position="fixed">
+        <h4>
+            Copyright &copy; 2016 SDCE 👽
+        </h4>
+    </footer>
+</section>
+
+<!-- Art Section -->
+<section data-role="page" id="art">
+	<aside data-role="panel" data-display="overlay" id="artCal">
+		<a href="#art" data-role="button" data-rel="close" data-icon="carat-l" data-iconpos="notext">Close</a>
+		<h1>January</h1>
+		<ul>
+			<li>asdfadsf</li>
+			<li>qeqrwrew</li>
+		</ul>
+		<h2>February</h2>
+		<ul>
+			<li>stuff</li>
+			<li>stuff</li>
+		</ul>
+		<h3>March</h3>
+		<ul>
+			<li>more stuff</li>
+		</ul>
+	</aside>
+    <header data-role="header" data-position="fixed">
+        <h1>
+            mySDCE
+        </h1>
+        <nav data-role="navbar">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="flip" data-theme="" data-icon="home"
+                    >
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#art" data-transition="flip" data-theme="" data-icon="grid"
+					class="ui-btn-active ui-state-persist">
+                        Art
+                    </a>
+                </li>
+                <li>
+                    <a href="#computer" data-transition="flip" data-theme="" data-icon="gear">
+                        Computer
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <article data-role="content">
+        <h2>
+            Get Artsy<span class="welcomeMessage"></span>!
+        </h2>
+		<div data-role="collapsible-set">
+            <div data-role="collapsible" data-collapsed="true">
+                <h3>
+                    Watercolor 101
+                </h3>
+				<p><img src="images/studentservices.jpg" class="imgResized"></p>
+            </div>
+            <div data-role="collapsible" data-collapsed="true">
+                <h3>
+                    Oil Paints 101
+                </h3>
+				<p>More content</p>
+            </div>
+			<div data-role="collapsible" data-collapsed="true">
+				<h3>Pencil Drawing 101</h3>
+				<p>Another paragraph</p>
+			</div>
+        </div>
+		<div class="ui-grid-a">
+            <div class="ui-block-a">
+				<a href="#artCal" data-role="button" data-icon="calendar">Art Calendar</a>
+            </div>
+            <div class="ui-block-b">
+				<a data-url="http://sdce.edu/class-schedule" data-role="button" data-icon="bullets" class="btnURL">Latest Classes</a>
+            </div>
+            <div class="ui-block-a">
+				
+            </div>
+            <div class="ui-block-b">
+				
+            </div>
+        </div>
+	</article>
+	<footer data-role="footer" data-position="fixed">
+        <h4>
+            Copyright &copy; 2016 SDCE 👽
+        </h4>
+    </footer>
+</section>
+
+<!-- Computer Section -->
+<section data-role="page" id="computer">
+    <header data-role="header" data-position="fixed">
+        <h1>
+            mySDCE
+        </h1>
+        <nav data-role="navbar">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="flip" data-theme="" data-icon="home"
+                    >
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#art" data-transition="flip" data-theme="" data-icon="grid"
+					>
+                        Art
+                    </a>
+                </li>
+                <li>
+                    <a href="#computer" data-transition="flip" data-theme="" data-icon="gear"
+					class="ui-btn-active ui-state-persist">
+                        Computer
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <article data-role="content">
+        <h2>
+            Get Techie<span class="welcomeMessage"></span>!
+        </h2>
+		<ul data-role="listview" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Basic Computer Classes
+                    </li>
+                    <li>
+                        <a href="#pcWindows" data-transition="slide">
+                            Windows 101
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#pcMac" data-transition="slide">
+                            Mac 101
+                        </a>
+                    </li>
+                    <li data-role="list-divider" role="heading">
+                        Intermediate Computer Classes
+                    </li>
+                    <li>
+                        <a href="#pcLin1" data-transition="slide">
+                            Linux 101
+                        </a>
+                    </li>
+					<li>
+						<a href="#pcLin2" data-transition="slide">
+                            Linux 102
+                        </a>
+					</li>
+		</ul>
+		<div class="ui-grid-a">
+            <div class="ui-block-a">
+				
+            </div>
+            <div class="ui-block-b">
+				
+            </div>
+            <div class="ui-block-a">
+				
+            </div>
+            <div class="ui-block-b">
+				
+            </div>
+        </div>
+	</article>
+	<footer data-role="footer" data-position="fixed">
+        <h4>
+            Copyright &copy; 2016 SDCE 👽
+        </h4>
+    </footer>
+</section> <!-- END Computer Section -->
+
+<!-- About section -->
+<section data-role="page" data-dialog="true" id="about">
+	<header data-role="header">
+		<h1>About</h1>
+	</header>
+	<article data-role="content">
+		<!-- <img src="https://maps.googleapis.com/maps/api/staticmap?center=San Diego, CA&amp;zoom=10&amp;size=288x200&amp;markers=San Diego, CA&amp;sensor=false"
+        width="288" height="200"> -->
+		<img src="images/ce-logo-vert.png" class="imgResized">
+		<p>To provide ongoing learning opportunities, preparing diverse individuals for career advancement, a college education, or enriched lives through good health and personal fulfillment.</p>
+		<a href="map.html" rel="external" data-role="button" data-icon="navigation">Driving Directions</a>
+		<a href="#" data-role="button" data-icon="user" id="btnName">Customize</a>
+	</article>
+</section><!-- END About section -->
+
+<!-- Windows 101 section -->
+<section data-role="page" id="pcWindows">
+	<header data-role="header" data-add-back-btn="true">
+		<h1>Windows 101</h1>
+	</header>
+	<article data-role="content">
+		<img src="images/programs.jpg" class="imgResized">
+	</article>
+</section><!-- END Windows 101 section -->
+
+<!-- Mac 101 section -->
+<section data-role="page" id="pcMac">
+	<header data-role="header" data-add-back-btn="true">
+		<h1>Mac 101</h1>
+	</header>
+	<article data-role="content">
+		kjdfkjdkdjfk
+	</article>
+</section><!-- END Mac 101 section -->
+
+<!-- Linux 101 section -->
+<section data-role="page" id="pcLin1">
+	<header data-role="header" data-add-back-btn="true">
+		<h1>Linux 101</h1>
+	</header>
+	<article data-role="content">
+		kjdfkjdkdjfk
+	</article>
+</section><!-- END Linux 101 section -->
+
+<!-- Linux 102 section -->
+<section data-role="page" id="pcLin2">
+	<header data-role="header" data-add-back-btn="true">
+		<h1>Linux 102</h1>
+	</header>
+	<article data-role="content">
+		kjdfkjdkdjfk
+	</article>
+</section><!-- END Linux 102 section -->
+
+  <script src="jquery-2.2.1.min.js"></script>
+  <script src="jquery.mobile-1.4.5.min.js"></script>
+  <script src="cordova.js"></script>
+  <script src="codiqa.ext.js"></script>
+</body>
+<!--
+-	Project Author: Victor Campos <vcampos@swccd.edu>
+-	Project Name:	mySDCE
+-	Version:		1.20160322
+-	Date:			2016-03-22
+-	Description:	The Unofficial SDCE app
+-->
+</html>
